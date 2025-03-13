@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5ddd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 350px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+/* Chat Header (like WhatsApp) */
+.chat-header {
+    background: #075e54;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.chat-header h2 {
+    font-size: 18px;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+/* Chat Box */
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    background: #efe7dd;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Message Bubbles */
+.bot-message, .user-message {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 75%;
+    word-wrap: break-word;
+    display: inline-block;
+    font-size: 14px;
+}
+
+/* Bot Messages (like WhatsApp incoming messages) */
+.bot-message {
+    background: #ffffff;
+    color: #333;
+    align-self: flex-start;
+    border-radius: 10px 10px 10px 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* User Messages (like WhatsApp sent messages) */
+.user-message {
+    background: #dcf8c6;
+    color: black;
+    align-self: flex-end;
+    border-radius: 10px 10px 0 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Chat Input Box */
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+    align-items: center;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #f0f0f0;
+    outline: none;
+}
+
+.chat-input button {
+    background: #128c7e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.chat-input button:hover {
+    background: #0e776b;
+}
+/* Chat Input Box */
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+    align-items: center;
+}
+
+/* Input Field */
+.chat-input input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background: #f0f0f0;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Send Button (Round with Arrow) */
+.chat-input button {
+    background: #128c7e;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin-left: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+/* Arrow Symbol */
+.chat-input button::before {
+    content: '➤';  
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.chat-input button:hover {
+    background: #0e776b;
+}
+
+/* Button Blink Effect on Click */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+.chat-input button:active {
+    animation: blink 0.2s ease-in-out 2;
+    transform: scale(0.9);
+}

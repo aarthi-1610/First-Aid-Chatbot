@@ -1,0 +1,593 @@
+{
+    "first_aid": [
+      {
+        "condition": "Burn",
+        "response": [
+          "Run cool water over the burn for at least 10 minutes.",
+          "Avoid using ice or very cold water, as it may cause further damage.",
+          "Cover the burn with a clean, dry cloth or sterile non-stick bandage.",
+          "Avoid breaking blisters if they form.",
+          "If the burn is severe, seek medical attention immediately."
+        ]
+      },
+      {
+        "condition": "Drowsiness",
+        "response": [
+          "Ensure the person gets fresh air and stays hydrated.",
+          "Encourage them to rest in a safe position.",
+          "If drowsiness persists or is accompanied by confusion, seek medical help."
+        ]
+      },
+      {
+        "condition": "Poisoning",
+        "response": [
+          "Identify the poison and remove the person from the source.",
+          "Do not induce vomiting unless instructed by a medical professional.",
+          "Call emergency services or a poison control center immediately."
+        ]
+      },
+      {
+        "condition": "Electric Shock",
+        "response": [
+          "Turn off the power source before touching the person.",
+          "Check for breathing and pulse; begin CPR if necessary.",
+          "Seek medical help immediately even if there are no visible injuries."
+        ]
+      },
+      {
+        "condition": "Nosebleed",
+        "response": [
+          "Sit up straight and lean forward slightly to prevent swallowing blood.",
+          "Pinch the soft part of your nose just above the nostrils for 10 minutes.",
+          "Breathe through your mouth while applying pressure.",
+          "Apply a cold compress to the bridge of your nose.",
+          "If bleeding continues after 20 minutes or is heavy, seek medical help."
+        ]
+      },
+      {
+        "condition": "Cut",
+        "response": [
+          "Wash the wound with clean water to remove dirt and bacteria.",
+          "Apply gentle pressure using a clean cloth to stop bleeding.",
+          "Apply an antiseptic to prevent infection.",
+          "Cover the wound with a sterile bandage.",
+          "Change the bandage daily and watch for signs of infection."
+        ]
+      },
+      {
+        "condition": "Choking",
+        "response": [
+          "Encourage the person to cough forcefully if they can.",
+          "If unable to cough, perform the Heimlich maneuver:",
+          "Stand behind the person and wrap your arms around their waist.",
+          "Make a fist and place it just above the navel.",
+          "Thrust inward and upward forcefully until the object is expelled.",
+          "If the person becomes unconscious, begin CPR and call emergency services."
+        ]
+      },
+      {
+        "condition": "Fainting",
+        "response": [
+          "Lay the person flat on their back.",
+          "Elevate their legs about 12 inches to improve blood flow.",
+          "Loosen tight clothing.",
+          "Check for breathing and pulse.",
+          "If they do not regain consciousness within a minute, seek medical help."
+        ]
+      },
+      {
+        "condition": "Snake Bite",
+        "response": [
+          "Keep the person calm and still to slow the spread of venom.",
+          "Immobilize the affected limb and keep it at or below heart level.",
+          "Remove tight clothing and jewelry near the bite.",
+          "Do not suck out the venom or apply a tourniquet.",
+          "Seek medical help immediately."
+        ]
+      },
+      {
+        "condition": "Heart Attack",
+        "response": [
+          "Call emergency services immediately.",
+          "Help the person sit down and stay calm.",
+          "Loosen tight clothing.",
+          "If the person is conscious, give them aspirin to chew if not allergic.",
+          "If they stop breathing, perform CPR until help arrives."
+        ]
+      },
+      {
+        "condition": "Fever",
+        "response": [
+          "Encourage rest and hydration.",
+          "Give paracetamol or ibuprofen if needed.",
+          "Use a damp cloth or lukewarm bath to cool down.",
+          "Monitor temperature and seek medical help if fever persists."
+        ]
+      },
+      {
+        "condition": "Cough",
+        "response": [
+          "Stay hydrated by drinking warm fluids.",
+          "Use cough drops or syrup to soothe the throat.",
+          "Use a humidifier to add moisture to the air.",
+          "Avoid irritants like smoke and strong scents.",
+          "Seek medical advice if the cough lasts more than two weeks."
+        ]
+      },
+      {
+        "condition": "Stomach Ache",
+        "response": [
+          "Drink clear fluids like water or herbal tea.",
+          "Avoid solid food until symptoms improve.",
+          "Rest and avoid strenuous activity.",
+          "Apply a warm compress to ease discomfort.",
+          "Seek medical help if pain persists or worsens."
+        ]
+      },
+      {
+        "condition": "Nausea",
+        "response": [
+          "Sip ginger ale or clear liquids slowly.",
+          "Eat small amounts of bland food like toast or crackers.",
+          "Avoid strong smells and heavy foods.",
+          "Rest in a cool, well-ventilated area.",
+          "If vomiting persists, seek medical attention."
+        ]
+      },
+      {
+        "condition": "Sore Throat",
+        "response": [
+          "Gargle with warm salt water several times a day.",
+          "Drink warm liquids like tea with honey.",
+          "Avoid irritants such as smoke and strong chemicals.",
+          "Use throat lozenges or sprays for relief.",
+          "Seek medical help if symptoms persist beyond a week."
+        ]
+      },
+      {
+        "condition": "Muscle Cramp",
+        "response": [
+          "Stretch the affected muscle gently.",
+          "Massage the area to relax the muscle.",
+          "Stay hydrated and drink electrolyte-rich fluids.",
+          "Apply a warm compress or heating pad.",
+          "If cramps persist, seek medical evaluation."
+        ]
+      }
+     ,
+         
+          {
+            "condition": "Dehydration",
+            "response": [
+              "Drink plenty of water and electrolyte-rich fluids.",
+              "Avoid caffeine and alcohol, as they can worsen dehydration.",
+              "Rest in a cool, shaded area to prevent further fluid loss.",
+              "Seek medical help if symptoms include dizziness, confusion, or fainting."
+            ]
+          },
+          {
+            "condition": "Hypoglycemia (Low Blood Sugar)",
+            "response": [
+              "Eat or drink something sugary, like fruit juice or candy.",
+              "Check blood sugar levels if possible.",
+              "Rest and avoid strenuous activity.",
+              "Seek medical help if symptoms persist or worsen."
+            ]
+          },
+          {
+            "condition": "High Blood Pressure (Hypertension Crisis)",
+            "response": [
+              "Sit down and take slow, deep breaths to stay calm.",
+              "Avoid stimulants like caffeine.",
+              "Monitor blood pressure if possible.",
+              "Seek immediate medical help if symptoms include chest pain or shortness of breath."
+            ]
+          },
+          {
+            "condition": "Ear Infection",
+            "response": [
+              "Apply a warm compress to the affected ear.",
+              "Take over-the-counter pain relievers as needed.",
+              "Avoid inserting anything into the ear.",
+              "Seek medical help if pain persists or hearing loss occurs."
+            ]
+          },
+          {
+            "condition": "Motion Sickness",
+            "response": [
+              "Focus on a stable object in the distance.",
+              "Sit in a well-ventilated area and breathe deeply.",
+              "Avoid reading or using screens during travel.",
+              "Take anti-motion sickness medication if needed."
+            ]
+          },
+          {
+            "condition": "Fracture",
+            "response": [
+              "Keep the injured area still and immobilized.",
+              "Apply ice wrapped in a cloth to reduce swelling.",
+              "Seek medical attention immediately."
+            ]
+          },
+          
+          {
+            "condition": "Shock",
+            "response": [
+              "Lay the person down.",
+              "Raise their legs to improve circulation.",
+              "Keep them warm until help arrives.",
+              "Reassure them to reduce anxiety.",
+              "Monitor their breathing and pulse."
+            ]
+          },
+          
+            {
+              "condition": "Seizure",
+              "response": [
+                "Clear the area of any objects to prevent injury.",
+                "Gently place the person on their side to keep the airway clear.",
+                "Do not restrain their movements or put anything in their mouth.",
+                "Stay with the person until the seizure stops and they regain awareness."
+              ]
+            },
+            {
+              "condition": "Stroke",
+              "response": [
+                "Call emergency services immediately as time is critical.",
+                "Help the person lie down in a comfortable position.",
+                "Keep them calm and monitor their breathing.",
+                "Note the time when symptoms started and avoid giving food or drinks."
+              ]
+            },
+            {
+              "condition": "Hypothermia",
+              "response": [
+                "Move the person to a warm, dry area immediately.",
+                "Remove any wet clothing and replace it with dry, warm layers.",
+                "Cover them with blankets and provide warm, non-alcoholic drinks.",
+                "Seek medical help if symptoms are severe or do not improve."
+              ]
+            },
+            {
+              "condition": "Heat Stroke",
+              "response": [
+                "Move the person to a cool, shaded place away from direct sunlight.",
+                "Apply cold, wet cloths or ice packs to the neck, armpits, and groin.",
+                "Encourage them to sip cool water if they are conscious.",
+                "Call emergency services as heat stroke is a medical emergency."
+              ]
+            },
+            {
+              "condition": "Allergic Reaction",
+              "response": [
+                "Use an epinephrine injector (EpiPen) if available and the person has one.",
+                "Help the person stay calm and seated to ease breathing.",
+                "Call emergency services if symptoms worsen or do not improve.",
+                "If unconscious, perform CPR and monitor vital signs."
+              ]
+            },
+            {
+              "condition": "Asthma Attack",
+              "response": [
+                "Help the person use their inhaler immediately.",
+                "Encourage slow, deep breaths and keep them calm.",
+                "Move them to fresh air if possible, away from triggers.",
+                "Call for medical help if breathing does not improve after inhaler use."
+              ]
+            },
+            {
+              "condition": "Drowning",
+              "response": [
+                "Remove the person from the water as safely as possible.",
+                "Check for breathing and pulse; if absent, begin CPR immediately.",
+                "Place them on their side to help drain water from the lungs.",
+                "Call emergency services and continue resuscitation efforts if needed."
+              ]
+            },
+            {
+              "condition": "Frostbite",
+              "response": [
+                "Move the person to a warm location as soon as possible.",
+                "Gradually warm the affected area using body heat or lukewarm water.",
+                "Avoid rubbing or applying direct heat to prevent further damage.",
+                "Seek medical attention if blisters form or numbness persists."
+              ]
+            },
+            {
+              "condition": "Eye Injury",
+              "response": [
+                "Flush the eye with clean, lukewarm water for at least 15 minutes.",
+                "Do not rub the eye or apply pressure.",
+                "If a foreign object is stuck, avoid removing it and seek medical help.",
+                "Cover the eye lightly with a clean cloth and keep it closed."
+              ]
+            },
+            {
+              "condition": "Heat Exhaustion",
+              "response": [
+                "Move the person to a cool, shaded place immediately.",
+                "Encourage them to drink cool water or an electrolyte drink.",
+                "Apply cool, wet cloths to their forehead, neck, and arms.",
+                "Monitor for signs of heat stroke and seek medical help if symptoms worsen."
+              ]
+            },
+            {
+              "condition": "Bee Sting",
+              "response": [
+                "Remove the stinger by scraping it out with a card or fingernail.",
+                "Wash the area with soap and water to prevent infection.",
+                "Apply ice or a cold pack to reduce swelling and pain.",
+                "Monitor for allergic reactions such as difficulty breathing and seek help if needed."
+              ]
+            },
+            {
+              "condition": "Animal Bite",
+              "response": [
+                "Wash the wound thoroughly with soap and running water for at least 5 minutes.",
+                "Apply an antiseptic and cover the wound with a clean bandage.",
+                "Seek medical attention, especially if the animal was wild or unvaccinated.",
+                "Monitor for signs of infection or rabies symptoms."
+              ]
+            },
+            {
+              "condition": "Chemical Burn",
+              "response": [
+                "Flush the affected area with cool running water for at least 20 minutes.",
+                "Remove any contaminated clothing or jewelry carefully.",
+                "Avoid using creams or ointments on the burn.",
+                "Seek immediate medical attention if the burn is severe or covers a large area."
+              ]
+            },
+            {
+              "condition": "Ear Injury",
+              "response": [
+                "If an object is stuck, tilt the head to the side to encourage it to fall out.",
+                "Avoid inserting cotton swabs or any objects into the ear.",
+                "If there is bleeding, gently cover the ear with a sterile cloth.",
+                "Seek medical help if hearing loss, pain, or dizziness occurs."
+              ]
+            },
+              {
+                "condition": "Sunburn",
+                "response": [
+                  "Cool the skin with a cool shower or bath to reduce heat.",
+                  "Apply aloe vera gel or a moisturizing lotion to soothe the burn.",
+                  "Drink plenty of water to stay hydrated and prevent dehydration.",
+                  "Avoid direct sun exposure until the skin has healed."
+                ]
+              },
+              {
+                "condition": "Chest Pain",
+                "response": [
+                  "Seek immediate medical attention as it may indicate a heart attack.",
+                  "Have the person sit in a comfortable position and stay calm.",
+                  "Loosen tight clothing to ease breathing.",
+                  "If prescribed, help them take aspirin or nitroglycerin while waiting for medical help."
+                ]
+              },
+              {
+                "condition": "Difficulty Breathing",
+                "response": [
+                  "Seek immediate medical attention as it can be life-threatening.",
+                  "Encourage slow, deep breathing and help them stay calm.",
+                  "Loosen tight clothing to improve airflow.",
+                  "Assist with an inhaler or oxygen if available and prescribed."
+                ]
+              },
+              {
+                "condition": "Severe Bleeding",
+                "response": [
+                  "Apply direct pressure to the wound using a clean cloth or bandage.",
+                  "Keep the injured limb elevated to slow the bleeding.",
+                  "Do not remove the cloth if it becomes soaked; instead, add more layers.",
+                  "Seek immediate medical attention to prevent excessive blood loss."
+                ]
+              },
+              {
+                "condition": "Unconsciousness",
+                "response": [
+                  "Check for responsiveness by tapping the person and calling their name.",
+                  "Call emergency services immediately for professional help.",
+                  "Ensure the person is lying on their side to prevent choking.",
+                  "If they are not breathing, begin CPR if trained to do so."
+                ]
+              },
+              {
+                "condition": "Drowsiness",
+                "response": [
+                  "Ensure the person gets fresh air and avoids confined spaces.",
+                  "Encourage hydration by drinking water or juice.",
+                  "Avoid allowing them to drive or operate heavy machinery.",
+                  "Seek medical attention if drowsiness persists or worsens."
+                ]
+              },
+              {
+                "condition": "Poisoning",
+                "response": [
+                  "Call emergency services or a poison control center immediately.",
+                  "Do not induce vomiting unless specifically instructed by medical professionals.",
+                  "Identify and provide details about the poison ingested if possible.",
+                  "Keep the person calm and monitor their breathing and consciousness."
+                ]
+              },
+              {
+                "condition": "Electric Shock",
+                "response": [
+                  "Turn off the power source before touching the affected person.",
+                  "Check for breathing and pulse; start CPR if necessary.",
+                  "Call for emergency medical assistance immediately.",
+                  "Keep the person warm and still while waiting for help."
+                ]
+              },
+              {
+                "condition": "Fracture",
+                "response": [
+                  "Immobilize the affected area to prevent further injury.",
+                  "Apply a splint or support using a firm object if necessary.",
+                  "Do not attempt to realign the bone or push a protruding bone back.",
+                  "Seek immediate medical attention to assess the severity of the fracture."
+                ]
+              },
+            
+            
+              {
+                "condition": "Heat Exhaustion",
+                "response": [
+                  "Move the person to a shaded or cool area immediately.",
+                  "Encourage them to drink cool water or electrolyte-rich fluids.",
+                  "Apply cool, wet cloths to the skin and use a fan if available.",
+                  "Monitor their condition and seek medical help if symptoms worsen."
+                ]
+              },
+              {
+                "condition": "Sprain",
+                "response": [
+                  "Apply an ice pack wrapped in a cloth to reduce swelling.",
+                  "Keep the injured area elevated above heart level if possible.",
+                  "Avoid putting weight on the affected limb and rest it.",
+                  "Use a compression bandage for support and seek medical advice if severe."
+                ]
+              },
+              {
+                "condition": "Bee Sting",
+                "response": [
+                  "Carefully remove the stinger by scraping it out with a card or fingernail.",
+                  "Wash the area with soap and water to prevent infection.",
+                  "Apply a cold compress to reduce pain and swelling.",
+                  "Monitor for signs of an allergic reaction and seek medical help if needed."
+                ]
+              },
+              {
+                "condition": "Animal Bite",
+                "response": [
+                  "Wash the wound with soap and running water for at least 5 minutes.",
+                  "Apply an antiseptic and cover it with a clean bandage.",
+                  "Seek medical attention, especially if the animal was wild or unvaccinated.",
+                  "Watch for signs of infection such as redness, swelling, or fever."
+                ]
+              },
+              {
+                "condition": "Chemical Burn",
+                "response": [
+                  "Flush the affected area with cool running water for at least 20 minutes.",
+                  "Remove any contaminated clothing carefully to prevent further exposure.",
+                  "Avoid applying creams or ointments to the burned area.",
+                  "Seek immediate medical attention if the burn is severe or widespread."
+                ]
+              },
+              {
+                "condition": "Ear Injury",
+                "response": [
+                  "If an object is stuck, tilt the head to the side to encourage it to fall out.",
+                  "Avoid inserting anything into the ear, including cotton swabs.",
+                  "Cover the ear with a sterile cloth if there is bleeding.",
+                  "Seek medical help if there is pain, dizziness, or hearing loss."
+                ]
+              },
+              {
+                "condition": "Shock",
+                "response": [
+                  "Lay the person down and raise their legs slightly to improve circulation.",
+                  "Keep them warm with a blanket, but do not overheat them.",
+                  "Monitor their breathing and consciousness while waiting for help.",
+                  "Seek emergency medical assistance immediately."
+                ]
+              },
+              {
+                "condition": "Carbon Monoxide Poisoning",
+                "response": [
+                  "Move the person to fresh air immediately.",
+                  "Loosen tight clothing and keep them calm while awaiting help.",
+                  "Call emergency services and provide oxygen if available.",
+                  "Avoid re-entering the contaminated area until it is deemed safe."
+                ]
+              },
+              {
+                "condition": "Panic Attack",
+                "response": [
+                  "Encourage slow, deep breaths using a paper bag if necessary.",
+                  "Reassure the person and help them focus on calming thoughts.",
+                  "Move them to a quiet, safe place to reduce stressors.",
+                  "Stay with them until they feel better and seek help if needed."
+                ]
+              },
+              {
+                "condition": "Migraine",
+                "response": [
+                  "Rest in a quiet, dark room to reduce sensitivity to light and noise.",
+                  "Drink plenty of water to stay hydrated.",
+                  "Apply a cold compress to the forehead or neck for relief.",
+                  "Consider taking prescribed or over-the-counter pain relievers if necessary."
+                ]
+              },
+              {
+                "condition": "Food Poisoning",
+                "response": [
+                  "Drink plenty of fluids to stay hydrated and prevent dehydration.",
+                  "Get plenty of rest and avoid solid foods until symptoms improve.",
+                  "Seek medical help if vomiting, diarrhea, or fever persists.",
+                  "Avoid consuming dairy, alcohol, or caffeine while recovering."
+                ]
+              },
+              {
+                "condition": "Fire Accident",
+                "response": [
+                  "Cool the burn with running water for at least 10-15 minutes.",
+                  "Remove any jewelry or tight clothing near the burn area.",
+                  "Cover the burn loosely with a sterile dressing or clean cloth.",
+                  "Seek medical help for severe burns or signs of infection."
+                ]
+              },
+              {
+                "condition": "Fainting",
+                "response": [
+                  "Lay the person down and elevate their legs above heart level.",
+                  "Loosen any tight clothing and ensure proper air circulation.",
+                  "Encourage them to take slow, deep breaths when they regain consciousness.",
+                  "Seek medical attention if fainting occurs repeatedly or for unknown reasons."
+                ]
+              },
+              {
+                "condition": "Breathing Difficulties",
+                "response": [
+                  "Help the person use any prescribed medication, such as an inhaler or oxygen.",
+                  "Encourage slow and controlled breathing to reduce panic.",
+                  "Loosen any tight clothing around the chest and neck.",
+                  "Seek emergency medical help if breathing does not improve."
+                ]
+              },
+              {
+                "condition": "Ant Bite",
+                "response": [
+                  "Gently wash the affected area with soap and water.",
+                  "Apply a cold compress to relieve swelling and pain.",
+                  "Take an antihistamine to reduce itching and allergic reactions.",
+                  "Avoid scratching the bite to prevent infection."
+                ]
+              },
+              {
+                "condition": "Headache",
+                "response": [
+                  "Rest in a quiet and dark room to reduce discomfort.",
+                  "Drink plenty of water to stay hydrated.",
+                  "Take an over-the-counter pain reliever if needed.",
+                  "Apply a cold or warm compress to the forehead or neck."
+                ]
+              },
+            
+          
+          {
+            "condition": "Cold Sores",
+            "response": [
+              "Apply a cold compress to reduce pain and swelling.",
+              "Use antiviral creams or ointments.",
+              "Avoid touching or picking at the sore.",
+              "Stay hydrated and get plenty of rest."
+            ]
+          }
+        ]
+      }
+      
+   
+ 
+  

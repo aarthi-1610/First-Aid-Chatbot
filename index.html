@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Aid Chatbot</title>
+    
+    <!-- Set the uploaded image as favicon -->
+    <link rel="icon" type="image/png" href="icon.jpeg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <!-- Added the image before the heading -->
+            <img src="image.png" alt="Chatbot Logo" width="40" height="40" style="vertical-align: middle;">
+            <h2 style="display: inline-block; margin-left: 10px;">First-Aid Chatbot</h2>
+        </div>
+        
+        <div class="chat-box" id="chat-box">
+            <div class="bot-message">Hello! How can I assist you with first aid today?</div>
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+            <button id="send-btn" onclick="sendMessage()"></button>
+        </div>
+        
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
